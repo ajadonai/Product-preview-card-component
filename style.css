@@ -1,0 +1,96 @@
+/* global style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+h1 {
+  color: hsl(212, 21%, 14%);
+  font-size: 2rem;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.7rem;
+  color: hsl(158, 36%, 37%);
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+}
+
+p {
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+span {
+  color: hsl(228, 12%, 48%);
+  margin-left: 1rem;
+  text-decoration: line-through;
+}
+
+img {
+  width: 100%;
+}
+
+/* style */
+@media screen and (max-width: 599px) {
+  .main-container {
+    background-color: white;
+    margin: auto;
+    max-width: 85%;
+  }
+
+  .desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .main-container {
+    background-color: white;
+    margin: auto;
+    max-width: 600px;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .about {
+    padding-bottom: 1px !important;
+  }
+}
+
+/* button */
+.btn {
+  max-width: 100%;
+  color: white;
+  background-color: hsl(158, 36%, 37%);
+}
+
+.btn:hover {
+  color: white;
+  background-color: hsl(157, 49%, 20%);
+}
+
+/* letter spacing */
+.ls-3 {
+  letter-spacing: 3px;
+}
+
+/* attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
